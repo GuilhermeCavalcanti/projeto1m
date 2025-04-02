@@ -34,3 +34,46 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+.image-section {
+    text-align: center;
+    margin: 40px 0;
+}
+.image-section img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.image-section p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+.script-section {
+    text-align: center;
+    margin: 40px 0;
+}
+.script-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.script-section button:hover {
+    background-color: #444;
+}
